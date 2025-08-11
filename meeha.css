@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url("https://img.freepik.com/premium-photo/ancient-temple-with-glowing-entrance-surrounded-by-lush-greenery-halo-sky_1387614-501.jpg?semt=ais_hybrid&w=740&q=80");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    }
+.image{
+    height: 100%;
+    width: 40%;
+}
+.heading{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+.para{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-left: 16px;
+    margin-top: 10px;
+
+}
+.buton{
+    background-color:navy;
+    color: white;
+    width: 140px;
+    height: 60px;
+    /* border: none; */
+    font-family: sans-serif;
+    border-radius:40px;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 10px;
+}
